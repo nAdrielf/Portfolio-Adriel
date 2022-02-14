@@ -77,6 +77,7 @@ li {
 }
 .about {
   line-height: 30px;
+  height: 300px;
 }
 .section-title {
   margin: 40px 0;
@@ -146,12 +147,12 @@ img {
   margin-bottom: 5px;
   padding: 10px;
 }
-h3 {
+.desc-cont h3 {
   font-weight: 300;
   margin: 0;
   line-height: 1.5;
 }
-h4 {
+.desc-cont h4 {
   font-weight: 300;
   color: #4e4c4c;
   font-size: 12px;
@@ -166,6 +167,13 @@ hr {
   width: 95%;
   background-color: #b9b9b9;
   height: 1px;
+}
+.separate {
+  border: 0;
+  width: 100%;
+  background-color: orange;
+  height: 1px;
+  margin: 50px 0;
 }
 .link-cont {
   flex: 0.2;
