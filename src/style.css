@@ -92,7 +92,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 150px;
+  margin-left: 150px;
 }
 .info p {
   text-align: justify;
@@ -101,21 +101,103 @@ li {
   flex: 1;
   margin-left: 50px;
   margin-right: 150px;
-  height: 100%;
 }
 .skill-cont {
   display: flex;
   flex-wrap: wrap;
+  margin: 15px 0;
 }
 .skill {
-  width: 100%;
-  margin-top: 15px;
   flex: 1;
-  background-color: #e9e5e5;
+  background-color: #f3f3f3;
   text-align: center;
   margin-right: 30px;
-  flex-direction: column;
   padding: 7px 5px 5px;
   font-size: 13px;
   border-radius: 10px;
+  font-weight: 300;
+}
+.projects {
+  margin: 50px 0;
+}
+.project-cont {
+  display: flex;
+  justify-content: space-around;
+}
+.project {
+  width: 360px;
+  height: 500px;
+  box-shadow: 5px 5px 20px #e9e6e6;
+  display: flex;
+  flex-direction: column;
+}
+.image-cont {
+  flex: 1;
+
+  margin-bottom: 5px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.desc-cont {
+  flex: 0.5;
+
+  margin-bottom: 5px;
+  padding: 10px;
+}
+h3 {
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.5;
+}
+h4 {
+  font-weight: 300;
+  color: #4e4c4c;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.desc-cont p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+hr {
+  border: 0;
+  width: 95%;
+  background-color: #b9b9b9;
+  height: 1px;
+}
+.link-cont {
+  flex: 0.2;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-button {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #1c1d25;
+}
+@media (max-width: 480px) {
+  .name-job {
+    margin-left: 40px;
+  }
+  .info-skills {
+    flex-direction: column;
+  }
+  .info {
+    margin: 0 40px;
+  }
+  .skills {
+    margin: 0 40px;
+  }
+  .skill-cont {
+    flex-wrap: nowrap;
+  }
 }
