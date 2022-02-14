@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Urbanist', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 500px;
+  border: 1px solid black;
+}
+.hero {
+  height: 100vh;
+  background: #1c1d25;
+  color: #fff;
+  font-size: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 2px 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+}
+li {
+  flex: 1;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.hero-area {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-job {
+  margin-left: 85px; /*atur buat mobile 50-70px*/
+  margin-bottom: 100px;
+}
+.name-job h1 {
+  margin: 0;
+}
+.name-job p {
+  margin: 30px 0 20px 0;
+  font-weight: 300;
+  font-size: 25px;
+}
+.name-job .button {
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 8px;
+  font-weight: 300;
+  font-size: 25px;
+}
+.name-job .button:hover {
+  background-color: coral;
+  cursor: pointer;
+}
+.name-job .button:active {
+  background: #a9a9a9;
+  color: #808080;
+  transform: scale(1.1) perspective(1px);
+}
+.socials {
+  padding-bottom: 150px;
+}
+.social {
+  margin: 20px;
+}
